@@ -46,7 +46,7 @@ def Trailing(number):
         # Never works out the factorial.
         # Divides the x! by 5^1 then 5^2...
         # Adds the results together, to get trailing zeros
-        # Stops when the divison is >= 1
+        # Stops when the division is >= 1
     print(total)
 
 
