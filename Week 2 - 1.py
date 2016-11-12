@@ -10,6 +10,6 @@ def Perfect(x):
         counter = counter - 2
         total = counter * counter
         # Corrects the overshoot of the previous calculation, outputting the correct answer.
-        # -2 because of the +1 in the previous loop, and the additonal -1 needed to undershoot.
+        # -2 because of the +1 in the previous loop, and the additional -1 needed to undershoot.
     return total
 
