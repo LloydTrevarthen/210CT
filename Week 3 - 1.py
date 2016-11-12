@@ -30,8 +30,8 @@ def isPrime(x, y):
         
 def noVowel(String, x):
     #x must be 0
-    vowles = ["a", "e", "i", "o", "u"]
-    String = String.replace(vowles[x],"")
+    vowels = ["a", "e", "i", "o", "u"]
+    String = String.replace(vowels[x],"")
     if x < 4:
         noVowel(String, x+1)
     if x == 4:
