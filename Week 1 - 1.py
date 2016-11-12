@@ -22,7 +22,7 @@ def Randomise(array):
 # from the array. If it isn't present, the number is added to y, and the array[num] is added to z,
 # the output list. This ensures the function still shuffles EG [1,1,1,2] as each positon is shuffled
 # rather than each number, where duplicates would be issues.
-# Finally the z ouput array is check to see if it matches the starting array, if so the function
+# Finally the z output array is check to see if it matches the starting array, if so the function
 # recurs until a shuffled output is achieved.
 
 
