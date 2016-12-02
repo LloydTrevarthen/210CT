@@ -110,6 +110,11 @@ def in_order_iterative_2(tree):
             else:
                 Complete = True
                 # When stack is empty.
+               
+def tree_sort(array):
+    for x in array:
+        tree_insert(t, x)
+    in_order(t)
 
 
 #        6
@@ -125,20 +130,13 @@ def in_order_iterative_2(tree):
 #             13
 
 # --------------------------------------------
-        
+
+
  
 if __name__ == '__main__':
    
   t=tree_insert(None,6);
-  tree_insert(t,10)
-  tree_insert(t,5)
-  tree_insert(t,15)
-  tree_insert(t,3)
-  tree_insert(t,4)
-  tree_insert(t,12)
-  tree_insert(t,14)
-  tree_insert(t,13)
-  in_order(t)
+  array = [10,5,15,3,4,12,14,13]
+  tree_sort(array)
   print("----------")
   in_order_iterative_2(t)
-
